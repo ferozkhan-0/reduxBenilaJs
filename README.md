@@ -8,7 +8,7 @@
         2. dispatch()
         3. subscribe()
 -----------------------------------
-# Cction identifire
+# Action identifire
 ```javascript
     const INCREMENT = "increment";
     const DECREMENT = "decrement";
