@@ -1,18 +1,18 @@
-# redux 4 step
+# Redux 4 step
 
     1. state </br>
     2. action </br>
     3. reducer</br>
     4. store---->getState(),dispatch(),subscribe() </br>
 -----------------------------------
-# action identifire
-const INCREMENT = "increment";
-const DECREMENT = "decrement";
+# Cction identifire
+    const INCREMENT = "increment";<br>
+    const DECREMENT = "decrement";<br>
 ------------------------------------
 # state
-const initiaState = {
-    count: 0,
-};
+    const initiaState = {
+        count: 0,
+    };
 ---------------------
 ///action 2ta type thake :1->type,2->payload
 const incrementCounter = () => {
