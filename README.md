@@ -1,5 +1,5 @@
 # redux 4 step
-//state
+//state </br>
 //action,
 //reducer
 //store---->getState(),dispatch(),subscribe()
