@@ -6,8 +6,8 @@
     4. store---->getState(),dispatch(),subscribe() </br>
 -----------------------------------
 # Cction identifire
-    const INCREMENT = "increment";<br>
-    const DECREMENT = "decrement";<br>
+    const INCREMENT = "increment";
+    const DECREMENT = "decrement";
 ------------------------------------
 # state
     const initiaState = {
