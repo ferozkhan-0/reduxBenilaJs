@@ -1,7 +1,7 @@
 # redux 4 step
 //state </br>
-//action,
-//reducer
+//action "/n",
+//reducer</br>
 //store---->getState(),dispatch(),subscribe()
 
 //action identifire
