@@ -1,9 +1,9 @@
 # redux 4 step
 //state </br>
-//action "/n",
+//action </br>,
 //reducer</br>
-//store---->getState(),dispatch(),subscribe()
-
+//store---->getState(),dispatch(),subscribe() </br>
+-----------------------------------
 //action identifire
 const INCREMENT = "increment";
 const DECREMENT = "decrement";
