@@ -5,14 +5,15 @@
     3. reducer</br>
     4. store---->getState(),dispatch(),subscribe() </br>
 -----------------------------------
-#action identifire
+# action identifire
 const INCREMENT = "increment";
 const DECREMENT = "decrement";
-#state
+------------------------------------
+# state
 const initiaState = {
     count: 0,
 };
-
+---------------------
 ///action 2ta type thake :1->type,2->payload
 const incrementCounter = () => {
     return {
