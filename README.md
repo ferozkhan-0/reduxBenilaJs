@@ -14,19 +14,21 @@
         count: 0,
     };
 ---------------------
-///action 2ta type thake :1->type,2->payload
-const incrementCounter = () => {
-    return {
-        type: INCREMENT,
-        payload: { user: "feroz khan" },
+# action 2ta type thake :1->type,2->payload
+```javascript
+    const incrementCounter = () => {
+        return {
+            type: INCREMENT,
+            payload: { user: "feroz khan" },
+        };
     };
-};
-const decrementCounter = () => {
-    return {
-        type: DECREMENT,
-        payload: { user: "feroz khan" },
+    const decrementCounter = () => {
+        return {
+            type: DECREMENT,
+            payload: { user: "feroz khan" },
+        };
     };
-};
+```
 
 /// reducer
 
