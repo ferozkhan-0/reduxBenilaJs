@@ -61,8 +61,9 @@ const reducer = (state = initiaState, action) => {
         default:
             return state;
     }
-};```
-----------------------
+};
+```
+---------------------
 # Create store
 ```javascript const store = createStore(reducer);```
 ---------------------
