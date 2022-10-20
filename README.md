@@ -21,10 +21,11 @@
     };
  ```
 ---------------------
-# Action 2ta type hoye thake: 
+# Action 2ta type hoye thake:
+
     1. type
     2. payload
-
+---------------------
 ```javascript
     const incrementCounter = () => {
         return {
