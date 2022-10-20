@@ -22,7 +22,6 @@
  ```
 ---------------------
 # Action 2ta type hoye thake:
-
     1. type
     2. payload
 ---------------------
