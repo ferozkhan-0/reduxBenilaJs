@@ -1,10 +1,9 @@
 # redux 4 step
-**
+
     6. 1. state </br>
     2. action </br>
     3. reducer</br>
     4. store---->getState(),dispatch(),subscribe() </br>
-**
 -----------------------------------
 #action identifire
 const INCREMENT = "increment";
