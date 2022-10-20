@@ -8,6 +8,9 @@
         2. dispatch()
         3. subscribe()
 -----------------------------------
+# CreateStore
+```javascript const { createStore } = require("redux");```
+------------------------------------
 # Action identifire
 ```javascript
     const INCREMENT = "increment";
@@ -58,5 +61,21 @@ const reducer = (state = initiaState, action) => {
         default:
             return state;
     }
-};
+};```
+----------------------
+# Create store
+```javascript const store = createStore(reducer);```
+---------------------
+# Subscribe
+```javascript
+    store.sbuscribe(() => {
+        console.log(store.getState());
+    });
 ```
+--------------------
+# Dispatch action
+```javascript
+    store.dispatch(incrementCounter());
+    store.dispatch(decrementCounter());
+```
+
