@@ -21,7 +21,9 @@
     };
  ```
 ---------------------
-# Action 2ta type hoye thake :1->type,2->payload
+# Action 2ta type hoye thake: 
+    1. type
+    2. payload
 
 ```javascript
     const incrementCounter = () => {
