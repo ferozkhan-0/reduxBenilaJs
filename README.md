@@ -9,7 +9,9 @@
         3. subscribe()
 -----------------------------------
 # CreateStore
-```javascript const { createStore } = require("redux");```
+```javascript 
+    const { createStore } = require("redux");
+```
 ------------------------------------
 # Action identifire
 ```javascript
@@ -65,7 +67,9 @@ const reducer = (state = initiaState, action) => {
 ```
 ---------------------
 # Create store
-```javascript const store = createStore(reducer);```
+```javascript 
+    const store = createStore(reducer);
+```
 ---------------------
 # Subscribe
 ```javascript
