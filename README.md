@@ -1,9 +1,12 @@
 # Redux 4 step
 
-    1. state </br>
-    2. action </br>
-    3. reducer</br>
-    4. store---->getState(),dispatch(),subscribe() </br>
+    1. state 
+    2. action 
+    3. reducer
+    4. store 3ta function call kore
+        1. getState()
+        2. dispatch()
+        3. subscribe()
 -----------------------------------
 # Cction identifire
 ```javascript
