@@ -6,15 +6,20 @@
     4. store---->getState(),dispatch(),subscribe() </br>
 -----------------------------------
 # Cction identifire
+```javascript
     const INCREMENT = "increment";
     const DECREMENT = "decrement";
+```
 ------------------------------------
 # state
+```javascript
     const initiaState = {
         count: 0,
     };
+ ```
 ---------------------
-# action 2ta type thake :1->type,2->payload
+# Action 2ta type hoye thake :1->type,2->payload
+
 ```javascript
     const incrementCounter = () => {
         return {
@@ -30,8 +35,8 @@
     };
 ```
 
-/// reducer
-
+# Reducer
+```javascript
 const reducer = (state = initiaState, action) => {
     switch (action.type) {
         case INCREMENT:
@@ -49,3 +54,4 @@ const reducer = (state = initiaState, action) => {
             return state;
     }
 };
+```
