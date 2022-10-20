@@ -1,13 +1,13 @@
 # redux 4 step
-//state </br>
-//action </br>,
-//reducer</br>
-//store---->getState(),dispatch(),subscribe() </br>
+1. state </br>
+2. action </br>,
+3. reducer</br>
+4. store---->getState(),dispatch(),subscribe() </br>
 -----------------------------------
-//action identifire
+#action identifire
 const INCREMENT = "increment";
 const DECREMENT = "decrement";
-///state
+#state
 const initiaState = {
     count: 0,
 };
