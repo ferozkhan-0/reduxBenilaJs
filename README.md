@@ -1,6 +1,6 @@
 # redux 4 step
 1. state </br>
-2. action </br>,
+2. action </br>
 3. reducer</br>
 4. store---->getState(),dispatch(),subscribe() </br>
 -----------------------------------
